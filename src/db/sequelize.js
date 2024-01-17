@@ -6,7 +6,7 @@ const pokemons = require("./mock-pokemon");
 const bcrypt = require("bcrypt");
 
 const sequelize = new Sequelize("pokedex", "root", "", {
-  host: "localhost",
+  host: "stellular-biscuit-309721.netlify",
   dialect: "mariadb",
   dialectOptions: {
     timezone: "Etc/GMT-2",
